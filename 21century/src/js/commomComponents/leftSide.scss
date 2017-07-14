@@ -1,0 +1,71 @@
+﻿.font{
+    font-family:'PingFang SC';
+    font-weight: bold;
+}
+$itemColor: #5d7d84;
+.container{
+    width: 238px;
+    height: 100%;
+    background-color: #102a49;
+}
+.iconDiv{
+    height: 130px;
+    min-height: 130px;
+    border-bottom: solid 1px #1a3b56;
+}
+.managerDiv {
+    padding-left:20px;
+    padding-top:50px;
+    padding-bottom:30px;
+    border-bottom: solid 1px #1a3b56;
+}
+.selectDiv {
+    height: 500px;
+    min-height:500px;
+}
+.bottomDiv {
+    display: flex;
+    padding-left: 20px;
+    height: 60px;
+    min-height: 60px;
+}
+.aCSS {
+    @extend .font;
+    color: #43bcff;
+    font-size: 12px;
+    margin-top: 12px;
+    padding-left: 20px;
+} 
+.bottomFontStyle {
+    @extend .font;
+    color: $itemColor;
+    font-size: 12px;
+}
+.blueBar {
+    height: 6px;
+    width: 22px;
+    background-color: #43bcff;
+}
+.managerFont{
+    @extend .font;
+    font-weight:bold;
+    color: #5d7d84;
+}
+.itemWrapper {
+    line-height: 50px;
+    text-align: center;
+    @extend .font;
+    font-size: 14px;
+    color: $itemColor;
+}
+.itemDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    border-bottom: solid 1px #1a3b56;
+}
+.itemSelected {
+    background-color: blue;
+    color: white;
+}
