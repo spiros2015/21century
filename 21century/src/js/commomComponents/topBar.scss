@@ -1,0 +1,42 @@
+﻿body {
+}
+.fontStyle {
+    color: #93bfce;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.areaItems{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-left: 42px;
+    margin-left: 10px;
+    padding-bottom: 4px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #c7d6e2;
+}
+.item{
+    position: relative;
+    width: 77px;
+    height: 36px;
+    background-color:  white;
+    color: #0f3963;
+    font-family: 'PingFang SC';
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 36px;
+    margin-bottom: 10px;
+    cursor: default
+}
+.imgage{
+    width: 16px;
+    height: 16px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}

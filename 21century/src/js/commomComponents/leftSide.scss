@@ -26,7 +26,7 @@ $itemColor: #5d7d84;
 .bottomDiv {
     display: flex;
     padding-left: 20px;
-    height: 60px;
+    height: 300px;
     min-height: 60px;
 }
 .aCSS {
@@ -57,6 +57,7 @@ $itemColor: #5d7d84;
     @extend .font;
     font-size: 14px;
     color: $itemColor;
+    cursor: default;
 }
 .itemDiv {
     display: flex;

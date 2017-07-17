@@ -85,15 +85,18 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="package.json" />
+    <Content Include="src\svg\a.svg" />
     <Content Include="src\js\app.scss" />
     <None Include="src\css\test.scss" />
     <Content Include="src\css\color.css" />
     <Content Include="src\js\commomComponents\leftSide.jsx" />
+    <Content Include="src\js\commomComponents\topBar.jsx" />
     <Content Include="src\js\teacher\index.jsx" />
     <Content Include="src\js\utils.js" />
     <Content Include="webpack.config.js" />
     <Content Include="src\js\commomComponents\leftSide.scss" />
     <Content Include="src\js\teacher\index.scss" />
+    <Content Include="src\js\commomComponents\topBar.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -103,7 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\js\app.jsx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

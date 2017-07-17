@@ -29,7 +29,7 @@
 .cxMXuigY8BgNYlg1s_Wn7 {
   display: flex;
   padding-left: 20px;
-  height: 60px;
+  height: 300px;
   min-height: 60px; }
 
 ._3NI_pXLOHN0mSEaiaz3-GD {
@@ -55,7 +55,8 @@
   line-height: 50px;
   text-align: center;
   font-size: 14px;
-  color: #5d7d84; }
+  color: #5d7d84;
+  cursor: default; }
 
 ._2tRk31Bsk_LnaGGJ8urm9j {
   display: flex;
@@ -70,7 +71,7 @@
 ._13Muu8QoLIlSgDDskpT2Jb {
   height: 100%;
   width: 100%;
-  position: absolute; }
+  position: relative; }
 
 ._18BZ_V86Jk7jTKWQaoVTPC {
   flex: 1;
@@ -81,10 +82,48 @@
   display: flex;
   flex-direction: row;
   justify-content: center; }
+._3o5n6D8WRWWqbYUC7YTCqi {
+  color: #93bfce;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 14px; }
+
+.fZGNzWjgWiMY3PXW8VmO2 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding-left: 42px;
+  margin-left: 10px;
+  padding-bottom: 4px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #c7d6e2; }
+
+.cCkcG5tZU9UU384KL9cwQ {
+  position: relative;
+  width: 77px;
+  height: 36px;
+  background-color: white;
+  color: #0f3963;
+  font-family: 'PingFang SC';
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 36px;
+  margin-bottom: 10px;
+  cursor: default; }
+
+._3qD3KwAkKGd2JF9t1s2sMM {
+  width: 16px;
+  height: 16px;
+  right: 0px;
+  top: 0px;
+  position: absolute; }
 ._3zqyeTF36O_8qdPIQUUnxd {
   width: 100%;
-  height: 100%;
-  position: absolute; }
+  height: 100%; }
 
 body {
   margin: 0; }
